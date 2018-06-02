@@ -1,0 +1,33 @@
+
+.menu, .menu li {
+  margin: 0;
+  padding: 0;
+}
+.menu, #submenu{
+  background: rgb(46,95,122);
+}
+.menu > li {
+  display: inline-block;
+  width: 25%; /* 4 пункта меню, то есть 100%/4 */
+  text-align: center;
+}
+.menu a {
+  display: block;
+  padding: 3px 0;
+  color: #fff;
+  text-decoration: none;
+}
+.menu a:hover {
+  background: rgb(96,145,172);
+}
+#p_menu {
+    position: relative;
+
+}
+#submenu {
+    position: absolute;
+    top:20px;
+    width: 100%;
+    display: none;
+
+}
